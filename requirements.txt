@@ -1,0 +1,5 @@
+exiftool
+PyPDF2
+qpdf
+mat2
+pdfcrack
