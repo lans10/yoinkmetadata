@@ -52,7 +52,7 @@ python yoinkmetadata.py magic /path/to/folder
 - Test metadata comparison between two directories:
 ```bash
 python yoinkmetadata.py test /path/to/folder
-```s
+```
 
 ## Note
 - Ensure all necessary dependencies are installed and accessible in the system's PATH.
