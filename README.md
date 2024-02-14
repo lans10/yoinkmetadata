@@ -12,7 +12,7 @@ It also allows for cracking password for encrypted PDF files, and corrects file 
 - RockYou wordlist: https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
 
 ## Usage 
 ```bash
@@ -52,7 +52,7 @@ python yoinkmetadata.py test /path/to/folder```
 - Ensure all necessary dependencies are installed and accessible in the system's PATH.
 - For password cracking functionality, provide a custom wordlist file (rockyou.txt by default) and ensure the necessary tool pdfcrack is available.
 - Skipping a tool's execution if it's not installed/present is a consideration for future releases. However, exiftool is the core of this script and is essential.
-- The test method currently is hardcoded for a personal project.
+- The test method currently is hardcoded for a personal project.	
 
 
 
