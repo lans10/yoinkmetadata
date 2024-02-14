@@ -13,10 +13,12 @@ It also allows for cracking password for encrypted PDF files, and corrects file 
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage 
 ```bash
-python yoinkmetadata.py <action> <path>```
+python yoinkmetadata.py <action> <path>
+```
 
 - `<action>`: Specify the action to perform. Available actions include:
 	- `view`: View metadata of a file.
@@ -33,20 +35,24 @@ python yoinkmetadata.py view /path/to/file
 ```
 - View metadata of all files in a folder
 ```bash
-python yoinkmetadata.py view /path/to/folder```
+python yoinkmetadata.py view /path/to/folder
+```
 - Clean metadata from a file
 ```bash
 python yoinkmetadata.py scrub /path/to/file
 ```
 - Clean metadata of all files in a folder
 ```bash
-python yoinkmetadata.py scrub /path/to/folder```
+python yoinkmetadata.py scrub /path/to/folder
+```
 - Perform metadata scrubbing and analysis on a directory:
 ```bash
-python yoinkmetadata.py magic /path/to/folder```
+python yoinkmetadata.py magic /path/to/folder
+```
 - Test metadata comparison between two directories:
 ```bash
-python yoinkmetadata.py test /path/to/folder```
+python yoinkmetadata.py test /path/to/folder
+```s
 
 ## Note
 - Ensure all necessary dependencies are installed and accessible in the system's PATH.
